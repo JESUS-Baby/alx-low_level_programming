@@ -1,6 +1,6 @@
 # alx-low_level_programming
 
-# **C - Hello, World**
+# For **C - Hello, World**
 
 ## General
 
