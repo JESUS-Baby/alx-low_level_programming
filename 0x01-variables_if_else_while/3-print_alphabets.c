@@ -6,22 +6,13 @@
 
 int main(void)
 {
-	char c;
+	char big;
 
-	char d;
-
-	c = 'a';
-	d = 'A';
-	while
-		(c <= 'z') {
-			putchar(c);
-			c++;
-		}
-	while
-		(d <= 'z') {
-			putchar(d);
-			d++;
-		}
+	for (big = 'a'; big <= 'z'; big++)
+		putchar(big);
+	for (big = 'A'; big <= 'Z'; big++)
+		putchar(big);
 	putchar('\n');
+
 	return (0);
 }
