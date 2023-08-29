@@ -8,20 +8,20 @@ int main(void)
 
     char alphabet = 'a';
 
-     /* check to see if the current value of your variable is less than 
+    /* check to see if the current value of your variable is less than
          or the same as the last member (z) of the given range. While 
-         the value is less, go ahead and print the value 
+         the value is less, go ahead and print the value
       */
 
-    while (alphabet <= 'z')
-    {
-        // print the value of the variable 
-        putchar(alphabet);
+while (alphabet <= 'z')
+{
+        /* print the value of the variable */
+    putchar(alphabet);
 
-        // increment the variable (ie: a becomes b)
-        alphabet++;
-    }
+    /* increment the variable (ie: a becomes b)  */
+    alphabet++;
+}
 
-    putchar('\n');
-    return (0);
+putchar('\n');
+return (0);
 }
